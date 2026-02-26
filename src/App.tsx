@@ -96,7 +96,7 @@ const MainScreen = () => {
   }, [showShakeTooltip]);
 
   return (
-    <div className="w-full max-w-md mx-auto min-h-[100dvh] bg-[#fafafa] relative pb-20 font-sans animate-in fade-in duration-500 shadow-2xl sm:border-x sm:border-gray-100">
+    <div className="w-full max-w-md mx-auto min-h-[100dvh] bg-[#fafafa] relative pb-16 font-sans animate-in fade-in duration-500 shadow-2xl sm:border-x sm:border-gray-100">
 
       <div className="fixed top-10 left-0 right-0 z-50 flex flex-col items-center space-y-2 px-4 pointer-events-none">
         {showShakeTooltip && isDiscreet && !toastMsg && (
@@ -141,17 +141,17 @@ const MainScreen = () => {
         </div>
       )}
 
-      <div className="pt-6 px-5 pb-3">
-        <div className="inline-block p-1.5 border-[2px] border-[#00bfa5] rounded-xl bg-white">
-          <QrCode className="w-9 h-9 text-black" strokeWidth={1.5} />
+      <div className="pt-5 px-5 pb-2">
+        <div className="inline-block p-2 border-[2.5px] border-[#00bfa5] rounded-xl bg-white">
+          <QrCode className="w-10 h-10 text-black" strokeWidth={1.5} />
         </div>
       </div>
 
-      <div className="px-5 mb-6">
+      <div className="px-5 mb-5">
         <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex justify-between items-start">
           <div className="flex-1 pr-2">
-            <h2 className="text-[16px] font-semibold text-gray-900 leading-tight tracking-tight">Cheikh Sidiya Moubareckou</h2>
-            <p className="text-gray-500 text-[13px] mt-1 tracking-wider">
+            <h2 className="text-[17px] font-semibold text-gray-900 leading-tight tracking-tight">Cheikh Sidiya Moubareckou</h2>
+            <p className="text-gray-500 text-[13px] mt-1.5 tracking-wider">
               {isDiscreet ? '+222 ** ** ** **' : '+222 49 05 51 37'}
             </p>
           </div>
@@ -172,65 +172,65 @@ const MainScreen = () => {
       </div>
 
       <div className="px-5">
-        <div className="grid grid-cols-2 gap-3.5">
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#10b981] flex items-center justify-center shrink-0 overflow-hidden">
+        <div className="grid grid-cols-2 gap-3">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#10b981] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/6lqgx7.jpg" alt="Transfert d'argent" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Transfert<br/>d'argent</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Transfert<br/>d'argent</span>
           </div>
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#38bdf8] flex items-center justify-center shrink-0 overflow-hidden">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#38bdf8] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/96v1sg.jpg" alt="Paiement Commerçant" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Paiement<br/>Commerçant</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Paiement<br/>Commerçant</span>
           </div>
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#6366f1] flex items-center justify-center shrink-0 overflow-hidden">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#6366f1] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/ey4ss4.jpg" alt="Paiement Factures" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Paiement<br/>Factures</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Paiement<br/>Factures</span>
           </div>
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#a855f7] flex items-center justify-center shrink-0 overflow-hidden">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#a855f7] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/brlzo8.jpg" alt="Recharge téléphonique" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Recharge<br/>téléphonique</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Recharge<br/>téléphonique</span>
           </div>
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#f87171] flex items-center justify-center shrink-0 overflow-hidden">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#f87171] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/s463xg.jpg" alt="Recharge compte" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Recharge<br/>compte</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Recharge<br/>compte</span>
           </div>
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#fbbf24] flex items-center justify-center shrink-0 overflow-hidden">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#fbbf24] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/id7b1o.jpg" alt="Retrait d'argent" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Retrait d'argent</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Retrait d'argent</span>
           </div>
         </div>
       </div>
 
-      <div className="px-5 mt-8">
-        <h3 className="text-gray-500 text-[14px] font-medium mb-3 px-1">Autres</h3>
-        <div className="grid grid-cols-2 gap-3.5">
-          <div className="bg-white rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#f59e0b] flex items-center justify-center shrink-0 overflow-hidden">
+      <div className="px-5 mt-6">
+        <h3 className="text-gray-500 text-[15px] font-medium mb-3 px-1">Autres</h3>
+        <div className="grid grid-cols-2 gap-3">
+          <div className="bg-white rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.03)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#f59e0b] flex items-center justify-center shrink-0 overflow-hidden">
               <img src="https://files.catbox.moe/395dtl.jpg" alt="Agences Masrvi" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-600 leading-[1.3]">Agences<br/>Masrvi</span>
+            <span className="text-[13px] font-medium text-gray-600 leading-[1.3]">Agences<br/>Masrvi</span>
           </div>
-          <div className="bg-white/40 rounded-2xl p-3.5 shadow-[0_2px_15px_rgba(0,0,0,0.01)] flex items-center space-x-3">
-            <div className="w-11 h-11 rounded-xl bg-[#a7f3d0] flex items-center justify-center shrink-0 opacity-50">
-              <Receipt className="w-[19px] h-[19px] text-white" strokeWidth={2} />
+          <div className="bg-white/40 rounded-2xl p-4 shadow-[0_2px_15px_rgba(0,0,0,0.01)] flex items-center space-x-3.5">
+            <div className="w-12 h-12 rounded-xl bg-[#a7f3d0] flex items-center justify-center shrink-0 opacity-50">
+              <Receipt className="w-[20px] h-[20px] text-white" strokeWidth={2} />
             </div>
-            <span className="text-[12.5px] font-medium text-gray-300 leading-[1.3]">Relevés de<br/>compte</span>
+            <span className="text-[13px] font-medium text-gray-300 leading-[1.3]">Relevés de<br/>compte</span>
           </div>
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 w-full max-w-md mx-auto bg-white border-t border-gray-100 flex justify-around items-center px-4 py-2.5 pb-safe z-50 sm:border-x">
+      <div className="fixed bottom-0 left-0 right-0 w-full max-w-md mx-auto bg-white border-t border-gray-100 flex justify-around items-center px-4 py-2 pb-safe z-50 sm:border-x">
         <div className="flex flex-col items-center space-y-0.5 w-14 cursor-pointer" onClick={() => setActiveTab('Accueil')}>
           <div className="w-5 h-5 flex items-center justify-center">
             <img src={activeTab === 'Accueil' ? "https://files.catbox.moe/6uq1ht.jpg" : "https://files.catbox.moe/itum37.jpg"} alt="Accueil" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
