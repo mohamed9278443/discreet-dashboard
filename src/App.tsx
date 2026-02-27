@@ -290,7 +290,7 @@ const MainScreen = () => {
        * ║   text-[13px] → غيّره لـ 12px أو 14px                    ║
        * ╚════════════════════════════════════════════════════════════╝
        */}
-      <div className="px-5">
+      <div className="px-5 mt-3 = 12px">
         <div className="grid grid-cols-2 gap-3">
 
           {/* ── بطاقة 1: Transfert d'argent ── */}
